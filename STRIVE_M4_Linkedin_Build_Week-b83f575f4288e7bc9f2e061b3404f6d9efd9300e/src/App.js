@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Feed from "./components/Feed";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Messaging from './components/Messaging'
 
 const apiKey = process.env.REACT_APP_API;
 
@@ -150,6 +151,11 @@ class App extends Component {
                 />
               )}
             />
+
+            <Route path='/messaging'
+            render={(props) =>(
+              <Messaging/>
+            )}/>
             <Footer />
           </Container>
         </div>

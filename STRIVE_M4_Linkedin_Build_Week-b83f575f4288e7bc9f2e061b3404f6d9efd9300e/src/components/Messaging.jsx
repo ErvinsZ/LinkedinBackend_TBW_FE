@@ -79,7 +79,9 @@ class Messaging extends Component{
                 bottom: 0,
                 width: "50vh",
                 height:"150px",
-                borderStyle:"solid",
+                borderRight:"solid",
+                borderLeft:"solid",
+                borderBottom:"solid",
                 borderWidth:"1px",
                 display: "flex",
                 padding: "1rem",
@@ -140,7 +142,7 @@ class Messaging extends Component{
             onHide={this.toggleModal}
           >
             <Modal.Header>
-              <Modal.Title>Set username</Modal.Title>
+              <Modal.Title>Enter username</Modal.Title>
               <Modal.Body>
                 <InputGroup className="mb-3">
                   <FormControl

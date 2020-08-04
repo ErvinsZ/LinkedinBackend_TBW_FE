@@ -76,7 +76,6 @@ class Messaging extends Component{
 
           <form id="chat" onSubmit={this.sendMessage}
             style={{
-                // position: "fixed",
                 bottom: 0,
                 width: "50vh",
                 height:"150px",
